@@ -1,6 +1,36 @@
+# IntelliJ IDEA project files
+
+.idea
+bin/
+out/
+*.iml
+*.ipr
+*.iws
+
+# Java build files
+
 *.class
 
 # Package Files #
 *.jar
 *.war
 *.ear
+
+# maven build folder
+
+target/
+
+# Temp files
+
+*.bak
+*.tmp
+*.temp
+*.swp
+*.vpp~*
+*.*~
+~*.*
+
+# OS auto gen folder information
+
+.DS_Store
+Thumbs.db
