@@ -8,5 +8,49 @@
     <artifactId>lz77-java</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    
+    <name>lz77-java</name>
+
+    <description>LZ77 Implement for Java,
+        This compress/decompress algorithm for PalmDoc content.
+        See also http://wiki.mobileread.com/wiki/PalmDOC
+    </description>
+
+    <scm>
+        <url>https://github.com/vhly/lz77-java.git</url>
+        <connection>https://github.com/vhly/lz77-java.git</connection>
+        <developerConnection>https://github.com/vhly/lz77-java.git</developerConnection>
+    </scm>
+
+    <url>https://github.com/vhly/lz77-java</url>
+
+    <developers>
+        <developer>
+            <id>vhly</id>
+            <name>Zhang Xiaohe</name>
+            <email>vhly@163.com</email>
+            <roles>
+                <role>developer</role>
+            </roles>
+        </developer>
+    </developers>
+
+    <contributors>
+        <contributor>
+            <name>Zhang Xiaohe</name>
+            <email>vhly@163.com</email>
+            <roles>
+                <role>developer</role>
+            </roles>
+        </contributor>
+    </contributors>
+
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.11</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
 </project>
